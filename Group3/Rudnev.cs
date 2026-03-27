@@ -5,6 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ForkKnights.Group3 {
-  internal class Rudnev {
+  internal class Rudnev : IKnight{
+    
+    string Name;
+
+
+    public string GetJobApplication() {
+
+    }
+
   }
 }
